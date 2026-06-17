@@ -13,7 +13,6 @@ class Communities extends StatelessWidget {
         ),
         actions: [PopupMenuButton(itemBuilder: (context) => [PopupMenuItem(child: Text("Settings"))],)],
       ),
-
     );
   }
 }
